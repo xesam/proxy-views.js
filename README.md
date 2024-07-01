@@ -4,9 +4,9 @@ Some wrapper views for Plain Data Object with [Proxy](https://developer.mozilla.
 
 For now, it have three views:
 
-1. MissingView, a naive wrapper for missing property;
-1. StrictView, you can only access property that exists in the origin object;
-1. AliasView, you can define alias for property.
+1. **MissingView** : a naive wrapper for missing property;
+1. **StrictView** : you can only access property that exists in the origin object;
+1. **AliasView** : you can define alias for property.
 
 ## Install
 
