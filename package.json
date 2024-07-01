@@ -1,0 +1,38 @@
+{
+    "name": "proxy-views",
+    "description": "Some wrapper views for Plain Data Object with ES6 Proxy. Make Data Object more semantic and easier to use.",
+    "version": "0.0.1",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "jest"
+    },
+    "jest": {
+        "testEnvironment": "node",
+        "testMatch": [
+            "<rootDir>/test/*.test.js"
+        ]
+    },
+    "devDependencies": {
+        "jest": "^29.7.0"
+    },
+    "keywords": [
+        "proxy",
+        "missing",
+        "shortcut",
+        "alias"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+git@github.com:xesam/proxy-views.js"
+    },
+    "bugs": {
+        "url": "https://github.com/xesam/proxy-views.js"
+    },
+    "homepage": "https://github.com/xesam/proxy-views.js",
+    "author": "xesam",
+    "email": "xesamguo@gmail.com",
+    "license": "MIT"
+}
