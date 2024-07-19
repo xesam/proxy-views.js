@@ -76,6 +76,10 @@ console.log(origin.alias1); // undefined
 
 ## Change Log
 
+### 0.0.2
+
+1. add `ChainView`
+
 ### 0.0.1
 
 1. naive implementation for MissingView, StrictView and AliasView.

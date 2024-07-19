@@ -1,7 +1,7 @@
 {
     "name": "proxy-views",
     "description": "Some wrapper views for Plain Data Object with ES6 Proxy. Make Data Object more semantic and easier to use.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "main": "index.js",
     "directories": {
         "test": "test"
