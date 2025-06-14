@@ -1,8 +1,8 @@
 # proxy-views.js
 
-Some wrapper views for Plain Data Object with [Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy). Make Data Object more semantic and easier to use.
+Some wrapper views for `Plain Data Object` with [Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy) to make `Data Object` more semantic and easier to use.
 
-For now, it have three views:
+views:
 
 1. **MissingView** : a naive wrapper for missing property;
 1. **StrictView** : you can only access property that exists in the origin object;
@@ -18,7 +18,7 @@ npm install proxy-views
 
 ### StrictView
 
-fetures:
+features:
 
 1. you can only get/set the property that exists in origin;
 2. if you get/set a property that not exists in origin, it will throw error.
@@ -39,7 +39,7 @@ view.title = 'new name'; // throw error: `title` is not defined in origin
 
 ### AliasView
 
-fetures:
+features:
 
 1. if you access a prop with alias then it will return the value of origin prop;
 2. if you modify a prop with alias then the origin prop's value will be modified by setter;
